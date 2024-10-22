@@ -2,7 +2,7 @@
 
 Welcome to the **Cyberpunk Tic-Tac-Toe** game! 🚀🎉 Built with **React.js** ⚛️, this version of the classic game comes with a futuristic, glowing interface inspired by the **cyberpunk** aesthetic 🕹️. Get ready to dive into the neon-lit world of strategic fun! 🔴🔵
 
-![Tic Tac Toe Cyberpunk Preview](./screenshot.png)
+![Tic Tac Toe Cyberpunk Preview](screenshot.png)
 
 ---
 
