@@ -19,7 +19,7 @@ Welcome to the **Cyberpunk Tic-Tac-Toe** game! 🚀🎉 Built with **React.js** 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe-cyberpunk.git
+   git clone https://github.com/ody9s5eus/tic-tac-toe-cyberpunk.git
    ```
 
 2. **Install Dependencies**:
@@ -73,4 +73,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/your-username)
+Made with ❤️ by [Your Name](https://github.com/ody9s5eus)
