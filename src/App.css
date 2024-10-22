@@ -1,19 +1,97 @@
-.square {
-  width: 100px;
-  height: 100px;
-  background: #fff;
-  border: 1px solid #999;
-  font-size: 24px;
-  font-weight: bold;
-}
 
-.board-row {
-  display: flex;
-}
-
+/* Game board layout */
 .game {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.game:hover {
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Square styling with rounded borders */
+.square {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #999;
+  border-radius: 12px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* Colors for X and O */
+.square.X {
+  color: #ff1e56;
+  text-shadow: 0 0 10px #ff1e56, 0 0 20px #ff1e56, 0 0 30px #ff1e56;
+}
+
+.square.O {
+  color: #00d9ff;
+  text-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff, 0 0 30px #00d9ff;
+}
+
+/* Board row styling */
+.board-row {
+  display: flex;
+}
+
+/* Status text styling */
+.status {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+/* Button styling */
+.restart-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff1e56;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #00d9ff;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+/* Mobile responsive tweaks */
+@media screen and (max-width: 600px) {
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+  }
+
+  .status {
+    font-size: 24px;
+  }
+
+  .restart-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
