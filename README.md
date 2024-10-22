@@ -6,6 +6,11 @@ Welcome to the **Cyberpunk Tic-Tac-Toe** game! 🚀🎉 Built with **React.js** 
 
 ---
 
+### Try the game:
+- Added a **direct link** to play the game on GitHub Pages: [**Play Now!**](https://ody9s5eus.github.io/tic-tac-toe/)
+
+---
+
 ## 🎯 **Features**
 
 - 🟡 **Sleek Cyberpunk Design**: Glowing **red X's** and **blue O's** 🟥🟦
